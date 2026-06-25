@@ -11,7 +11,7 @@ class TutorialPopup extends Popup {
         this._btnSkip = new SkipButton(this._scene, this._panel._sprite.x, this._panel._sprite.y + 190, this);
 
         var color = 'black';
-        this._content1 = this._scene.add.text(this._panel.position().x, this._panel.position().y - 100, 'Byll will be hiding in one.', { fontFamily: 'molot', fontSize: 30, color: color });
+        this._content1 = this._scene.add.text(this._panel.position().x, this._panel.position().y - 100, 'Byll will be hiding in one', { fontFamily: 'molot', fontSize: 30, color: color });
         this._content2 = this._scene.add.text(this._panel.position().x, this._panel.position().y - 60, 'of the boxes. Click the box', { fontFamily: 'molot', fontSize: 30, color: color });
         this._content3 = this._scene.add.text(this._panel.position().x, this._panel.position().y - 20, 'after the shuffle.', { fontFamily: 'molot', fontSize: 30, color: color });
         this._content4 = this._scene.add.text(this._panel.position().x, this._panel.position().y + 20, '---', { fontFamily: 'molot', fontSize: 30, color: color });
